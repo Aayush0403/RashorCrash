@@ -1,0 +1,82 @@
+*
+{
+	margin: 0;
+	padding:0;
+}
+
+.pic 
+{
+ background-image: url("car.png"); 
+ width:auto;
+ height:100vh;
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+.cont p
+{
+	font-weight: bold;
+	font-size: 50px;
+	color: yellow;
+}
+.cont
+{
+	padding: 25px;
+	position: absolute;
+	top: 26%;
+	left: 38%;
+	box-shadow: 2px 2px 50px white;
+	height: 150px;
+	width: 400px;
+	background-color: gray;
+	border-radius: 20px;
+	text-align: center;
+}
+#btn
+{
+	padding: 10px;
+	background-color:#0fff50;
+	border-radius: 10px;
+	cursor:pointer;
+	font-weight: bold;
+	border: none;
+}
+#btn:hover
+{
+	color:red;
+	transform: scale(1.2);
+}
+@media screen and (max-width:950px)
+{
+	.pic
+	{
+		height:100vh;
+		width: auto;
+		overflow-y: hidden;
+		background-size:100% 100%;
+	}
+	.cont
+	{
+		padding: 25px;
+		position: absolute;
+		top: 32%;
+		left:18%;
+		box-shadow: 2px 2px 50px white;
+		height: 100px;
+		width: auto;
+		background-color: gray;
+		border-radius: 20px;
+		text-align: center;
+	}
+	.cont p
+{
+	font-weight: bold;
+	font-size: 25px;
+	color: yellow;
+	
+}
+.cont input
+{
+	margin-top: 8px;
+}
+}
